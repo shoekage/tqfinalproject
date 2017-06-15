@@ -1,0 +1,147 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Raleway|Taviraj');
+
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h4 {
+    font-family: 'taviraj', serif;
+}
+p, a {
+    font-family: 'raleway', sans-serif;
+}
+.block {
+    display:block;
+}
+.pull-left {
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+.menu {
+	width: 240px;
+	height: 100%;
+	position: absolute;
+	background: #D9C9A3;
+	left: -240px;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+/*Menu Toggle*/
+.menu-icon {
+	padding: 10px 20px;
+	background: #E5DAC0;
+	color: #987D3E;
+	cursor: pointer;
+	float: left;
+	margin-top: 4px;
+	border-radius: 5px;
+	/*position: absolute;*/
+}
+#menuToggle { display: none; }
+#menuToggle:checked ~ .menu { position: absolute; left: 0; }
+#menuToggle:checked ~ .content { position: absolute; left: 260px; }
+.content {
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+
+.hero {
+    height: 300px;
+    background-image: url('../images/barca.jpg');
+    background-size: 70%;
+    background-position: bottom;
+    padding-top: 20%;
+    background-repeat: no-repeat;
+    /*background-color: #D9C9A3;*/
+}
+main {
+    width: 70%;
+    height: 300px;
+    overflow: auto;
+    /*overflow-y: auto;*/
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+main p {
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    padding: 10%;
+}
+h2 {
+    padding-left: 10%;
+}
+.text-center {
+    text-align:center;
+}
+/*p {*/
+/*    display: block;*/
+/*    -webkit-margin-before: 1em;*/
+/*    -webkit-margin-after: 1em;*/
+/*    -webkit-margin-start: 0px;*/
+/*    -webkit-margin-end: 0px;*/
+/*}*/
+/*Slide out menu*/
+* { padding: 0; margin: 0; }
+/*body { font-family: 'taviraj', sans-serif; overflow: hidden; }*/
+/*a { text-decoration: none; color: #00A5CC; }*/
+/*li { list-style-type: none; }*/
+header { 
+	width: 100%; 
+	height: 50px; 
+	margin: auto;
+	border-bottom: 1px solid #EEE;
+}
+#brand {
+	float: right;
+	line-height: 50px;
+	color: #E5DAC0; /* beige */
+	font-size: 25px;
+	font-weight: bolder;
+	padding-right: 10px;
+	text-align:center;
+}
+nav { width: 100%; text-align: center; }
+nav a { 
+	display: block; 
+	padding: 15px 0;
+	border-bottom: 1px solid #C3AA6E; /*khaki*/
+	color: #F0EADC; /*light khaki */
+}
+nav a:hover { background: #E5DAC0; color: #FFF; }
+nav li:last-child a { border-bottom: none; }
+
+/*Social Media Styles*/
+social-media {
+    height:110px;
+    background-color:#E5DAC0;
+    color: #fff;
+    clear: both;
+    padding-top:15px;
+    text-align: center;
+}
+.social-media a {
+    color: #E5DAC0;
+    float:left;
+    padding-top:10px;
+}
+.social-media a:hover {
+    color: #00aea1;
+}
+.social-media i {
+    margin: 0px 10px;
+}

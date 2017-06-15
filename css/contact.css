@@ -1,0 +1,28 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Raleway|Taviraj');
+
+
+/*Contact Form Styles*/
+section.contact-map-wrapper {
+    width: 50%;
+}
+section.contact-form-wrapper iframe {
+    width: 50%;
+    height: 550px;
+}
+
+/*Map Styles*/
+address {
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.map-wrapper {
+    width: 100%;
+}
+
+.map-wrapper iframe {
+    height: 500px;
+    width: 100%;
+}
